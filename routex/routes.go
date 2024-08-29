@@ -1,0 +1,5 @@
+package routex
+
+func Routex() {
+
+}

@@ -1,0 +1,6 @@
+{
+  "go-func": {
+    "prefix": "go-func",
+    "body": ["func ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}( ) {", "", "}"]
+  },
+}
