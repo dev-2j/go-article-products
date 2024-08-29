@@ -1,0 +1,30 @@
+package timex
+
+const DD string = "02"                               // DD
+const DDMMYYYY string = "02-01-2006"                 // DD-MM-YYYY
+const DDsMMsYYYY string = "02/01/2006"               // DD/MM/YYYY
+const DDpMMpYYYY string = "02.01.2006"               // DD.MM.YYYY
+const MM string = "01"                               // MM
+const MMDD string = "01-02"                          // MM-DD
+const MMsDD string = "01/02"                         // MM/DD
+const YYYY string = "2006"                           // YYYY
+const YYYYsMM string = "2006/01"                     // YYYY/MM
+const YYYYMM string = "2006-01"                      // YYYY-MM
+const YYYYsMMsDD string = "2006/01/02"               // YYYY/MM/DD
+const YYYYsMMsDDsHHsMI string = "2006/01/02/15/04"   // YYYY/MM/DD/HH/MI
+const YYYYMMDD string = "2006-01-02"                 // YYYY-MM-DD
+const HHMI string = "15:04"                          // HH:MI
+const HHMMSS string = "15:04:05"                     // HH:MI:SS
+const SYMD string = "20060102"                       // YYYYMMDD
+const SDMY string = "02012006"                       // DDMMYYYY
+const SHMS string = "150405"                         // HHMISS
+const HHMISSFFF string = "15:04:05.000"              // HH:MI:SS.milli
+const MSSQL string = "2006-01-02 15:04:05"           // YYYY-MM-DD HH:MI:SS
+const MSSQLT string = "2006-01-02T15:04:05"          // YYYY-MM-DDTHH:MI:SS
+const MSSQLFFF string = "2006-01-02 15:04:05.000"    // YYYY-MM-DD HH:MI:SS.FFF
+const YYYYMMDDTZ string = `2006-01-02T15:04:05-0700` //
+const YYYYuMMuDD string = "2006_01_02"               // YYYY_MM_DD
+const FULLTIME = "2006-01-02 15:04:05.000000"        //
+const FULLTIMETM = "2006-01-02T15:04:05.000"         //
+const FULLTIMETZ = "2006-01-02 15:04:05.000000-0700" // Format for AWS Redshift ,https://docs.aws.amazon.com/redshift/latest/dg/r_DATEFORMAT_and_TIMEFORMAT_strings.html
+const DATETIME = "2006-01-02T15:04:05"               // YYYY-MM-DDTHH:MM:SS

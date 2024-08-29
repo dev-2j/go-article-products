@@ -1,0 +1,5 @@
+package condb
+
+func ConnectPgRO() {
+
+}
